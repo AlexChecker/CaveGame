@@ -1,0 +1,8 @@
+﻿#start:Как управлять?
+@Я хз -> n1
+#n1:W, A, S, D - Это перемещение, E - инвентарь.
+@Способности -> ab
+@Понял -> end
+#ab:Способности прыжка - Qddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+@Окей -> end
+#end:Вы прошли

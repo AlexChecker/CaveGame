@@ -1,0 +1,26 @@
+!nobattle: 1
+!trigger: A O giveitem potion 1
+!trigger: B ^ damage 10
+!trigger: C ? dialog inventory.diag
+!string: D Инвентарь и лечение
+!string: E Скиллы(пока один)
+!trigger: F ? dialog skill.diag
+!string: G Двери и ключи
+!trigger: H C giveitem crystal 1
+!door: I █
+!trigger: J K giveitem key 1
+!trigger: K ? dialog commands.diag
+!trigger: L > map arena
+!trigger: M O map main
+
+##############################################################################
+#@       C          F            K        L                                  #
+########## ########## ########## ########## ########## ########## ########## #
+#          #          #          #          #          #          #          #
+#  AAAAAA  #  HHHHHH  #  JJJJJJ  #          #          #          #          #
+#          #          #          #          #          #          #          #
+#  BBBBBB  #          #          #          #          #          #          #
+#          #          #          #          #          #          #          #
+#########################IIIIII###############################################
+           E
+D                     G
