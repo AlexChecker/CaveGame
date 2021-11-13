@@ -1,2 +1,0 @@
-CaveGame.exe
-pause
